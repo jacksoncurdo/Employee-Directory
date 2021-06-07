@@ -1,7 +1,6 @@
-
 import React from "react";
 
-const EmployeeSort = emailSort => {
+const UserSort = emailSort => {
     return (
     <div>
         <button onClick= {emailSort}></button>
@@ -9,4 +8,4 @@ const EmployeeSort = emailSort => {
     )
 }
 
-export default EmployeeSort;
+export default UserSort;

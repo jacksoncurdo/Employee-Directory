@@ -1,8 +1,9 @@
-import React from "react"
-import UserList from "./UserList"
+import React from "react";
+import UserList from "./UserList";
 
-const AllEmployees = (props) => {
+const AllUsers = (props) => {
   return (
+    
     <> 
     <div className="container">
   <table className="table-resposive">
@@ -26,4 +27,4 @@ const AllEmployees = (props) => {
   );
 };
 
-export default AllEmployees;
+export default AllUsers;
